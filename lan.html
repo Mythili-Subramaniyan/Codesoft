@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family:'Times New Roman', Times, serif, sans-serif;
+        }
+        .hero {
+            background: linear-gradient(to bottom, rgba(96, 131, 156, 0.8), rgba(35, 92, 100, 0.8)), url('stack.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .about, .services {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .service-card {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+        }
+        .hero p{
+            font-size: 150%;
+        } 
+        .hero h1{
+            font-size: 200%;
+        } 
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Landing Page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-warning text-white" href="#contact">Buy Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="hero">
+        <h1>Empowering Your Digital Presence</h1>
+        <p>Innovative solutions to launch, scale, and transform your business.</p>
+        <button class="btn btn-light">Get a Free Consultation</button>
+    </header>
+    
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p> Who We Are ?
+            <br>
+            For over 15 years, we've been helping businesses stand out in the digital world. Our team of experts specializes in designing innovative strategies that drive growth, engagement, and success. Whether you're a startup or an established brand, we bring creativity and expertise to fuel your journey.</p>
+    </section>
+    
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <h4>User Experience</h4>
+                        <p> We craft seamless, intuitive experiences that keep users engaged and coming back.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <h4>Creative Design</h4>
+                        <p>From logos to full-scale brand identity, we help you create a stunning and recognizable image.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <h4>High-Performance Websites</h4>
+                        <p>Pixel-perfect, responsive, and retina-ready websites designed for maximum impact.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
