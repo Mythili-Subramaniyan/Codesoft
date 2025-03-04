@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: rgba(51, 51, 51, 0.9);
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        section {
+            padding: 20px;
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .skills, .projects {
+            padding: 50px 20px;
+            color: black;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .project {
+            width: 45%;
+            margin: 10px;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .project img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .resume a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background: rgba(51, 51, 51, 0.9);
+            color: white;
+            padding: 10px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mythili S</h1>
+        <p>Web Developer | Designer | Creative Thinker</p>
+    </header>
+    
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="mypic.jpg" alt="MYTHILI">
+        <p> Dedicated and innovative Electronics and Communication engineering
+            student with a solid foundation in electronic circuits and programming
+            .Proficient in using tools like MATLAB and a little on simulation . Currently
+            serving as Treasurer in IEEE Photonics Society . Have skills in languages
+            such as Python and C . Good in problem solving and a collaborative team
+            player.I am a highly motivated and creative web developer with a passion for crafting engaging and user-friendly digital experiences. With expertise in both front-end and back-end development, I specialize in building responsive websites, optimizing performance, and implementing intuitive designs. My goal is to continuously learn and improve while delivering high-quality projects that exceed expectations.</p>
+    </section>
+    
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS</li>
+            <li>JavaScript</li>
+            <li>C</li>
+            <li>Python</li>
+        </ul>
+    </section>
+    
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="port.png" alt="Portfolio Website">
+            <div>
+                <h3>Portfolio Website</h3>
+                <p>This portfolio website serves as a showcase of my work, skills, and experience in web development. It features a modern and responsive design, allowing visitors to easily navigate through my projects, resume, and contact information. The site was built using HTML, CSS, and JavaScript to ensure a seamless user experience.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="Screenshot 2025-03-02 091131.png" alt="Creating Landing Page">
+            <div>
+                <h3>Landing Page</h3>
+                <p>Designed and developed a high-converting landing page to enhance user engagement and drive conversions. The page includes a clean UI/UX, optimized images, and interactive elements to capture the visitor's attention. Using modern web technologies, I ensured the page loads quickly and provides a smooth browsing experience.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="resume">
+        <h2>Resume</h2>
+        <a href="mythili resume.pdf" download>Download Resume</a>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: mythilixi1@gmail.com</p>
+        <p>Phone: +916579254852</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 MYTHILI. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
